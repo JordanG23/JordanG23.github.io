@@ -6,7 +6,7 @@ body {
 #content {
     max-width: 1100px;
     margin: 0 auto;
-    background-color: none;
+    background-color: #ffffff;
   } 
 
 img {
@@ -20,7 +20,7 @@ h1 {
     font-size: 3em;
     line-height: 1.1em;
     color: #000000;
-    position: center;
+    position:relative;
 }
 
 h2 {     
@@ -32,7 +32,7 @@ h2 {
     font-size: 2em;
     line-height: 1em;
     color: #000000;
-    position: center;
+    position: relative;
     
 }
 
@@ -46,7 +46,7 @@ p {
     text-align: left;
     padding: 5px;
     font-family: 'Karla', sans-serif;
-    font-size: 1;
+    font-size: 1em;
     line-height: 1.35em;
     color: #000000;
 }
