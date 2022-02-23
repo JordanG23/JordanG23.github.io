@@ -24,6 +24,7 @@ h1 {
 }
 
 h2 {     
+    max-width: 900px;
     float: left; 
     padding: 2px;
     text-align: left;
