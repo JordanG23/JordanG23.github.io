@@ -80,14 +80,18 @@ li {
     z-index: 1000;
     float: right;
     width: 285px;
-    height: 289px;
+    height: 286px;
     margin: 15px 10px 15px 5px;
 }
 
-#info {
+.info {
     text-align: center;
 }
 
 a.three {
     color: #000000;
+}
+
+#lastUpdated {
+    color: #250077;
 }
