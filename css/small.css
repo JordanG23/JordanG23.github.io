@@ -78,7 +78,6 @@ li {
 .picture-right-image {
     position: relative;
     z-index: 1000;
-    float: right;
     width: 285px;
     height: 286px;
     margin: 15px 10px 15px 5px;
