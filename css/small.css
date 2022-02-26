@@ -3,18 +3,22 @@
 body {
     background-color: #ffffff;
 }
+
+header {
+    max-width: 1100px;
+    background-color: #18C3EA;
+    line-height: 2.75em;
+    border-radius: 10px;
+}
+  
 #content {
     max-width: 1100px;
     margin: 0 auto;
     background-color: #ffffff;
   } 
 
-img {
-    max-width: 100%;
-}
-
 h1 {      
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-family: 'Spectral', serif;
     font-size: 3em;
@@ -24,16 +28,25 @@ h1 {
 }
 
 h2 {     
-    max-width: 900px;
+    max-width: 1100px;
     float: left; 
     padding: 2px;
-    text-align: left;
     font-family: 'Spectral', serif;
     font-size: 2em;
     line-height: 1em;
     color: #000000;
     position: relative;
     
+}
+
+h3 {      
+    padding: 10px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-size: 1.5em;
+    line-height: 1.1em;
+    color: #000000;
+    position:relative;
 }
 
 p {
@@ -45,15 +58,6 @@ p {
     color: #000000;
 }
 
-header {
-    max-width: 1100px;
-    background-color: #18C3EA;
-    align-items: center;
-    justify-content: center;
-    line-height: 2.75em;
-    border-radius: 10px;
-}
-  
 footer {
     max-width: 1100px;
     background-color: #18C3EA;
@@ -62,12 +66,11 @@ footer {
     line-height: 2.75em;
     border-radius: 10px;
 }
-
+/* For index.html */
 .list-title {
     float: none;
     border-bottom: inset grey;
 }
-
 
 li {
     text-align: justify;
@@ -94,4 +97,58 @@ a.three {
 
 #lastUpdated {
     color: #250077;
+}
+/* For design-princliples.html */
+#contents {
+    display: grid;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#container {
+    display: grid;
+    max-width: 1100px;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	padding: 10px;
+}
+
+h4 {
+    max-width: 1100px;
+    text-align: center; 
+    text-decoration: underline;
+    padding: 5px;
+    font-family: 'Spectral', serif;
+    font-size: 2em;
+    line-height: 1em;
+    color: #000000;
+    position: relative;
+}
+
+.column {
+    max-width: 1100px;
+    align-items: center;
+    margin: 3px;
+    border: 1px solid #DAFFED;
+    background-color: #ffffff;
+    box-shadow: 10px -2px 15px 5px grey;
+    
+}
+
+.column-pic {
+    display: block;
+    position: relative;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 346px;
+    height: 768px;
+}
+
+a.design {
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: #18C3EA
 }

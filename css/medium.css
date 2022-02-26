@@ -2,4 +2,9 @@
     .picture-right-image { 
         float: right; 
     }
- }
+
+    #container {
+        grid-template-columns: 1fr 1fr;
+    }
+       
+}
