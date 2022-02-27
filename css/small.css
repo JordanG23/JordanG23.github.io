@@ -91,7 +91,7 @@ li {
     text-align: center;
 }
 
-a.three {
+.three {
     color: #000000;
 }
 
@@ -114,7 +114,8 @@ a.three {
 	padding: 10px;
 }
 
-h4 {
+.dprinc {
+    float: none;
     max-width: 1100px;
     text-align: center; 
     text-decoration: underline;
@@ -151,4 +152,8 @@ a.design {
     text-align: center;
     align-items: center;
     color: #18C3EA
+}
+
+a:hover {
+    color: green;
 }
