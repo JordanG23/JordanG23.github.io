@@ -147,7 +147,11 @@ li {
     height: 768px;
 }
 
-a.design {
+.portal {
+    color: #000000;
+}
+
+.design {
     display: block;
     text-align: center;
     align-items: center;
