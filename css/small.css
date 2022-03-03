@@ -73,7 +73,7 @@ footer {
 }
 
 li {
-    text-align: justify;
+    text-align:left;
     font-family: 'Spectral', serif;
     font-size: 1.25em;
 }
