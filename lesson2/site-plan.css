@@ -83,6 +83,7 @@ nav {
 nav > ul {
 list-style-type: none;
 display: flex;
+
 }
 
 nav a {
@@ -90,6 +91,7 @@ flex: auto;
 text-align: center;
 padding:1em;
 text-decoration: none;
+
 }
 
 nav a:link, nav a:visited {
@@ -106,27 +108,30 @@ background-color: var(--nav-hover-background-color);
     flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 .persona {
     padding: 10px;
 }
 
-li {
+nav li {
     list-style-type: none;
+    flex: 1 1 100%;
+    
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 32.5em) {
     .menu {
         justify-content: center;
     }
 
-    nav {
-        font-size: 1.85em;
+    nav li {
+        flex: 1 1 100%;
     }
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 66em) {
     
     .menu {
         align-items:flex-start;     
@@ -138,9 +143,15 @@ li {
         order: 1;
         position: relative;
         display: flex;  
-        width: auto;       
+        width: auto;
+        /* flex: 1 1 100%;        */
     }
-    nav {
-        font-size: 1.85em;
+
+    li {
+        font-size: 1.5em;
+    }
+    
+    nav li {
+        flex: none;
     }
 }
