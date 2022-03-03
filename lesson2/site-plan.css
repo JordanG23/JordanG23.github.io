@@ -63,17 +63,17 @@ p {
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: var(--nav-background-color);
     padding: 0 15px;
     line-height: 3em;
     text-align: center;
-    font-size: 1.85em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
+    font-size: 1.3em;
+    flex-direction: column;
 }
 
 nav > ul {
@@ -104,10 +104,6 @@ background-color: var(--nav-hover-background-color);
     align-items: center;
 }
 
-li {
-    display: flex;
-}
-
 .persona {
     padding: 10px;
 }
@@ -116,20 +112,27 @@ li {
     .menu {
         justify-content: center;
     }
+
+    nav {
+        font-size: 1.85em;
+    }
 }
 
 @media all and (min-width: 960px) {
     
     .menu {
-        align-items: flex-start;     
+        align-items:flex-start;     
         flex-wrap:nowrap;
-        background: none;
+        background: none;       
     }
     
     .item {
         order: 1;
         position: relative;
-        display: block; 
-        width: auto;
+        display: flex;  
+        width: auto;       
+    }
+    nav {
+        font-size: 1.85em;
     }
 }
