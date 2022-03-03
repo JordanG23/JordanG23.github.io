@@ -80,6 +80,9 @@ nav {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+}
 nav > ul {
 list-style-type: none;
 display: flex;
@@ -126,6 +129,9 @@ nav li {
         justify-content: center;
     }
 
+    ul {
+        list-style-type: none;
+    }
     nav li {
         flex: 1 1 100%;
     }
@@ -153,5 +159,9 @@ nav li {
     
     nav li {
         flex: none;
+    }
+
+    ul {
+        list-style-type: none;
     }
 }
