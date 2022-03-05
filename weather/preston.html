@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Weather & News</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/weather/css/small.css">
+    <link rel="stylesheet" href="/weather/css/medium.css">
+    <link rel="stylesheet" href="/weather/css/large.css">
+</head>
+<body>
+
+    <header>
+        
+        <img class="logo" src="images/weatherlogo.png" alt="Weather Logo">
+        <section>
+            <h1 class="head">Tomorrow's Weather</h1>
+            <div>-"Bringing you up to date for tomorrow's plans."</div>
+        </section>   
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+            <li><a href="#">HOME</a></li>
+            <li class="preston"><a href="#">PRESTON</a></li>
+            <li><a href="#">SODA SPRINGS</a></li>
+            <li><a href="#">FISH HAVEN</a></li>
+            <li><a href="#">STORM CENTER</a></li>
+            <li><a href="#">GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="banner">Hero w/ weather Summary</div>
+        <div class="forecast">5 Day Forecast</div>
+        <div class="article">Article</div>
+        <div class="contact">Contact Information</div>
+    </main>
+
+    <footer>
+        <h2>Contact Us:</h2>
+        <h3 class="info">&#9993; <a href="mailto:greenwoodjordan@hotmail.com">Tomorrow's Weather</a></h3>
+        <h3 class="info">&#128222; <a href="phone:1-250-217-4612">Main Office</a></h3>
+        <p class ="info">&copy; <span id="copyright"></span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
+        <p id="currentDate"></p>        
+    </footer>
+
+    <script src="/weather/js/weather.js" defer></script>
+</body>
+</html>

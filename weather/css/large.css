@@ -1,0 +1,39 @@
+@media all and (min-width: 66em) {
+    
+    .navigation {
+        padding: 0;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        display: flex;
+        order: 1;
+        position: relative;
+        width: auto;
+        flex-direction: row;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        font-size: 25px;
+        flex:none;
+    }
+
+    .navigation ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        display: flex;
+    }
+
+    footer {
+        max-width: 1200px;
+        flex-direction: row;
+    }
+}

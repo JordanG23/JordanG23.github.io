@@ -1,0 +1,22 @@
+@media all and (min-width: 32.5em) {
+    
+    nav {
+        margin: 0 auto;
+    }
+
+    .navigation {
+        justify-content: center;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation ul {
+        list-style-type: none;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+}
