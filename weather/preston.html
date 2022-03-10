@@ -36,17 +36,53 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="banner">Hero w/ weather Summary</div>
-        <div class="forecast">5 Day Forecast</div>
+        <h2>5-Day Forecast</h2>
+            <div class="forecast">
+                <div class="flex-col">
+                    <span class="col-head">Monday</span>
+                    <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
+                    <span class="data">Sunshine</span>
+                </div>
+                <div class="flex-col">
+                    <span class="col-head">Tuesday</span>
+                    <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
+                    <span class="data">Sunshine</span>
+                </div>
+                <div class="flex-col">
+                    <span class="col-head">Wednesday</span>
+                    <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
+                    <span class="data">Sunshine</span>
+                </div>
+                <div class="flex-col">
+                    <span class="col-head">Thursday</span>
+                    <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
+                    <span class="data">Sunshine</span>
+                </div>
+                <div class="flex-col">
+                    <span class="col-head">Friday</span>
+                    <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
+                    <span class="data">Sunshine</span>
+                </div>
+            </div>
         <div class="article">Article</div>
-        <div class="contact">Contact Information</div>
     </main>
 
     <footer>
-        <h2>Contact Us:</h2>
-        <h3 class="info">&#9993; <a href="mailto:greenwoodjordan@hotmail.com">Tomorrow's Weather</a></h3>
-        <h3 class="info">&#128222; <a href="phone:1-250-217-4612">Main Office</a></h3>
-        <p class ="info">&copy; <span id="copyright"></span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
-        <p id="currentDate"></p>        
+        <div class="upperfooter">
+            <img class="map" src="/weather/images/prestonlong.JPG" alt="Map of Preston, Idaho">
+            <section class="contact">
+                <h2>Contact Information:</h2>
+                <h3>&#9993; <a href="mailto:greenwoodjordan@hotmail.com">Tomorrow's Weather</a></h3>
+                <h3>&#128222; <a href="phone:1-250-217-4612">Main Office</a></h3>
+            </section>
+            <section class="social">       
+                <a class="socialmedia" href="https://www.facebook.com" target="_blank"><img class="icon" src="/weather/images/facebook2.png" alt="facebook"></a>
+                <a class="socialmedia" href="https://www.youtube.com" target="_blank"><img class="icon" src="/weather/images/youtube3.png" alt="youtube"></a>
+                <a class="socialmedia" href="https://www.twitter.com" target="_blank"><img class="icon" src="/weather/images/twitter3.png" alt="twitter"></a>
+            </section>  
+        </div>
+        <p class="info">&copy; <span id="copyright"></span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
+        <p class="info" id="currentDate"></p>        
     </footer>
 
     <script src="/weather/js/weather.js" defer></script>

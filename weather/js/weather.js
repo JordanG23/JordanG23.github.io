@@ -1,5 +1,4 @@
 
-
 var today = new Date();
 const daynames = [
 	"Sunday",
@@ -40,4 +39,17 @@ document.getElementById('copyright').appendChild(document.createTextNode(new Dat
 
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
+if (dayName == "Friday") {
+	var banner = document.createElement("div");
+	banner.className = "flash";
+	banner.innerHTML = "Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
+
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.display = "block";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.fontSize = "30px";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.fontFamily = "Spectral"
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.textAlign = "center";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.padding = "10px 10px 10px 10px";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.backgroundColor = "#C1D3FE";
 }
