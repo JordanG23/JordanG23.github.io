@@ -44,7 +44,7 @@ function toggleMenu() {
 if (dayName == "Friday") {
 	var banner = document.createElement("div");
 	banner.className = "flash";
-	banner.innerHTML = "Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
+	banner.innerHTML = "Preston Pancakes in the Park! 9:00 a.m. Every Saturday at the City Park pavilion.";
 
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.display = "block";
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.fontSize = "30px";
