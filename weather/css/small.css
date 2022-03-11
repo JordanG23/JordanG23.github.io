@@ -56,16 +56,9 @@ header {
     margin: 0.5px;
 }
 
-nav {
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
 .navigation {
     font-family: "Spectral", sans-serif;
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     background-color: #ABC4FF;
     padding: 0.25em;
@@ -82,9 +75,9 @@ nav {
 }
 
 .navigation a {
-    flex: auto;
-    text-align: center;
     padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
 }
 
@@ -117,6 +110,10 @@ nav {
 
 main {
     text-align: center;
+}
+
+div.motto {
+    padding:0 0 0 4%;
 }
 
 div {

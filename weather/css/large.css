@@ -2,12 +2,7 @@
     
     .navigation {
         padding: 0;
-        align-items: flex-start;
-        flex-wrap: nowrap;
         display: flex;
-        order: 1;
-        position: relative;
-        width: auto;
         flex-direction: row;
     }
 
@@ -17,7 +12,6 @@
 
     .navigation li {
         display: block;
-        font-size: 25px;
         flex:none;
     }
 

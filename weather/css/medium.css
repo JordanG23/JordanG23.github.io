@@ -1,12 +1,5 @@
-@media all and (min-width: 32.5em) {
+@media all and (min-width: 45.6em) {
     
-    nav {
-        margin: 0 auto;
-    }
-
-    .navigation {
-        justify-content: center;
-    }
     .navigation li {
         display: block;
         flex: 1 1 100%;
