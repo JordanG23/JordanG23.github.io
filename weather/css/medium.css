@@ -24,8 +24,8 @@
 
     .summary {
         position: absolute;
-        top: 10px;
-        left: 45px;
+        top: 45px;
+        left: 35px;
         background: radial-gradient(#fdd835, #ABC4FF);
         border: 1px solid #000000;
         padding: 1.5rem;

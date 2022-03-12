@@ -212,7 +212,8 @@ picture {
 }
 
 .tulip img {
-    align-self: center;
+    display: block;
+    float: right;
     margin: 10px;   
 }
 
