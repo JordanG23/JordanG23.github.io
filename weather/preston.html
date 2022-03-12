@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/weather/css/small.css">
     <link rel="stylesheet" href="/weather/css/medium.css">
     <link rel="stylesheet" href="/weather/css/large.css">
+    
 </head>
 <body>
 
@@ -43,11 +44,11 @@
         
             <section class="summary">
                 <h2>Weather Summary</h2>
-                <p>Currently: <span id="current">38&deg;F<br>Broken Clouds</span></p>
-                <p>Wind Chill: <span id="chill"></span></p>
-                <p>High: <span id="high">41&deg;F</span></p>
-                <p>Humidity: <span id="humidity">50%</span></p>
-                <p>Wind Speed: <span id="wind">5 mph</span></p>                
+                <p>Currently: <span id="temp">38</span> &deg;F Broken Clouds</p>
+                <p>Feels Like: <span id="chill"></span> &deg;F</p>
+                <p>High: <span id="high">41</span> &deg;F</p>
+                <p>Humidity: <span id="humidity">50</span> %</p>
+                <p>Wind Speed: <span id="speed">5</span> mph</p>                
             </section>
 
         </picture>
@@ -57,30 +58,59 @@
                 <div class="flex-col">
                     <span class="col-head">Monday</span>
                     <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
-                    <span class="data">Sunshine</span>
+                    <span class="data">37 &degF Sunshine</span>
                 </div>
                 <div class="flex-col">
                     <span class="col-head">Tuesday</span>
                     <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
-                    <span class="data">Sunshine</span>
+                    <span class="data">38 &degF Sunshine</span>
                 </div>
                 <div class="flex-col">
                     <span class="col-head">Wednesday</span>
                     <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
-                    <span class="data">Sunshine</span>
+                    <span class="data">34 &degF Sunshine</span>
                 </div>
                 <div class="flex-col">
                     <span class="col-head">Thursday</span>
                     <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
-                    <span class="data">Sunshine</span>
+                    <span class="data">35 &degF Sunshine</span>
                 </div>
                 <div class="flex-col">
                     <span class="col-head">Friday</span>
                     <img class="fore" src="/weather/images/sun.jpg" alt="Sunshine">
-                    <span class="data">Sunshine</span>
+                    <span class="data">37 &degF Sunshine</span>
                 </div>
             </div>
-        <div class="article">Article</div>
+            <br>
+        <h2>Tulip Festival Fast Approaching</h2>
+            <section class="news">
+
+                <picture class="tulip">
+                    <source srcset="/weather/images/tulips400.jpg" media="(min-width:730px)
+                                    and (max-width: 1055px)">
+                    <source srcset="/weather/images/tulips600.jpg" media="(min-width:1056px)">
+                    <img src="/weather/images/tulips200.jpg" alt="Tulips">
+                </picture>
+                
+                <p class="article">
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales sit amet lectus vel pretium.
+                    Proin malesuada nisl arcu, sit amet pellentesque orci tristique id. Mauris tincidunt leo nec blandit 
+                    pretium. Mauris enim metus, vulputate a urna vel, cursus tincidunt dolor. Integer placerat porttitor 
+                    tellus vitae facilisis. Fusce vitae pharetra felis. Nullam at leo urna. Suspendisse massa dolor, volutpat 
+                    sed sapien congue, convallis tempus eros. Maecenas laoreet accumsan turpis non imperdiet. Nullam non lorem 
+                    vehicula magna cursus ullamcorper id id nunc. Aliquam erat volutpat.
+                    <br>
+                        In ultrices mollis enim at eleifend. Morbi non velit ac erat accumsan pharetra. Vestibulum convallis egestas
+                    massa non gravida. Fusce vehicula ex vitae dolor facilisis porttitor. Praesent efficitur sed quam nec gravida.
+                    Integer ligula arcu, dignissim a placerat quis, faucibus et lacus. Donec egestas elementum orci, eu congue
+                    mi elementum ut. Nullam vel enim eu nunc feugiat placerat. Nam efficitur quam eu tempus vulputate. Morbi
+                    condimentum lorem nec lorem fringilla suscipit. Curabitur eget feugiat felis, at bibendum ligula. Pellentesque
+                    feugiat enim eu lectus efficitur, vel ullamcorper mi sodales. Aliquam nunc lectus, congue ac lobortis id,
+                    laoreet et lectus. Etiam sed posuere metus. Vivamus eget risus sit amet lectus rutrum egestas ut quis diam.
+                    Nulla facilisi. </p>
+
+            </section>
     </main>
 
     <footer>
@@ -97,10 +127,12 @@
                 <a class="socialmedia" href="https://www.twitter.com" target="_blank"><img class="icon" src="/weather/images/twitter3.png" alt="twitter"></a>
             </div>  
         </div>
-        <p class="info">&copy; <span id="copyright"></span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
+        <p class="info">&copy; <span id="copyright"> </span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
         <p class="info" id="currentDate"></p>        
     </footer>
 
     <script src="/weather/js/weather.js" defer></script>
+    <script src="/weather/js/windchill.js" defer></script>
+    
 </body>
 </html>

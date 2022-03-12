@@ -30,9 +30,20 @@
         display: block;
         margin: 3%;
         align-self: center;
-        text-align: center;
         position: relative; 
         max-width: 100%;
+    }
+
+    .article {
+        text-align: justify;
+        padding: 15px;
+        margin: 10px;
+    }
+    
+    .tulip img {
+        display: block;
+        float: right;
+        margin: 10px;   
     }
 
     .upperfooter {
@@ -76,7 +87,6 @@
         background: radial-gradient(#fdd835, #ABC4FF);
         border: 1px solid #000000;
         padding: 1.5rem;
-        box-shadow: 0 0 30px #333;
         opacity: 0.9;
     }
 }
