@@ -30,9 +30,11 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-size: 16px;
+    text-align: center;
     font-family: "Karla", serif;
     color: #000000;
-    padding: 1em;
+    padding: 0;
+    margin:0;
 }
 
 header {
@@ -120,10 +122,35 @@ div {
     text-align: left;
     font-family: "Karla", serif;
 }
-.banner {
-    border: dashed 1px;
-    padding: 15px;
-    margin: 10px;
+
+picture {
+    align-self: center;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+}
+
+.summary {
+    margin: 3%;
+    position: static;
+    background: radial-gradient(#fdd835, #ABC4FF);
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    opacity: 1;
+    width: auto;
+   }
+
+.summary span {
+	font-style: italic;
+    color: #4838da;
+	font-weight: 700;
+}
+
+.summary h2 {
+    text-decoration: underline;
+    text-align: left;
 }
 
 .forecast {
@@ -221,6 +248,14 @@ a.socialmedia {
     box-shadow: 10px 10px 10px #D7E3FC;
 }
 
+
+p.info {
+    font-size: 16px;
+    font-family: "Karla", serif;
+    color: #000000;
+    padding: 1em;
+    margin:0;
+}
 .info {
     display: flex;
     max-width: 1200px;

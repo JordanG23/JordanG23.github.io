@@ -35,7 +35,23 @@
 
     <main>
         <h2>Preston Idaho</h2>
-        <div class="banner">Hero w/ weather Summary</div>
+        <picture class="hero">
+            <source srcset="/weather/images/wdd230_image_franklin800.jpg" media="(min-width:730px)
+             and (max-width: 1055px)">
+            <source srcset="/weather/images/wdd230_image_franklin1200.jpg" media="(min-width:1056px)">
+            <img src="/weather/images/wdd230_image_franklin400.jpg" alt="franklin">
+        
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current">38&deg;F<br>Broken Clouds</span></p>
+                <p>Wind Chill: <span id="chill"></span></p>
+                <p>High: <span id="high">41&deg;F</span></p>
+                <p>Humidity: <span id="humidity">50%</span></p>
+                <p>Wind Speed: <span id="wind">5 mph</span></p>                
+            </section>
+
+        </picture>
+        
         <h2>5-Day Forecast</h2>
             <div class="forecast">
                 <div class="flex-col">

@@ -26,6 +26,15 @@
         display: flex;
     }
 
+    .hero {
+        display: block;
+        margin: 3%;
+        align-self: center;
+        text-align: center;
+        position: relative; 
+        max-width: 100%;
+    }
+
     .upperfooter {
         display: flex;
         flex-wrap: wrap;
@@ -58,5 +67,16 @@
     .info {
         max-width: 1200px;
         flex-direction: row;
+    }
+
+    .summary {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background: radial-gradient(#fdd835, #ABC4FF);
+        border: 1px solid #000000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #333;
+        opacity: 0.9;
     }
 }
