@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 Lazyload</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="lazyl.css">
+</head>
+
+<body>
+    <main>
+        <h1>Progressive Loading (Images)</h1>
+        <picture>
+            <img src="images/placeholder.JPG" data-src="images/coldmoon.JPG" alt="Wintery Moon">
+        </picture>
+        <picture>
+            <img src="images/placeholder.JPG" data-src="images/dash.JPG" alt="Dash the Dog">
+        </picture>
+        <picture>
+            <img src="images/placeholder.JPG" data-src="images/frost.JPG" alt="Frosty Branch">
+        </picture>
+        <picture>
+            <img src="images/placeholder.JPG" data-src="images/sunrise.JPG" alt="sunrise">
+        </picture>
+        <picture>
+            <img src="images/placeholder.JPG" data-src="images/sunset1.JPG" alt="Sunset 1">
+        </picture>
+        <picture>
+            <img src="images/placeholder.JPG" data-src="images/sunset2.JPG" alt="Sunset 2">
+        </picture>
+        
+    </main>
+    <script src="lazy.js" defer></script>
+</body>
+
+</html>
