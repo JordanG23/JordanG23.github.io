@@ -259,7 +259,6 @@ a.socialmedia {
     box-shadow: 10px 10px 10px #D7E3FC;
 }
 
-
 p.info {
     font-size: 16px;
     font-family: "Karla", serif;
@@ -276,6 +275,15 @@ p.info {
     line-height: 1em;
     flex-direction: column;
 }
+
+figure {
+    display: grid;
+    max-width: 1200px;
+	grid-template-columns: 1fr;
+	grid-gap: 1em;
+	padding: 5px;
+}
+
 
 
 
