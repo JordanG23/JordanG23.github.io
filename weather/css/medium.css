@@ -46,7 +46,7 @@
         margin: 10px;   
     }
 
-    figure {
+.images {
         display: grid;
         max-width: 1200px;
         grid-template-columns: repeat(2, 1fr);

@@ -90,7 +90,7 @@
         opacity: 0.9;
     }
 
-    figure {
+.images {
         display: grid;
         max-width: 1200px;
         grid-template-columns: repeat(3, 1fr);
@@ -100,14 +100,14 @@
         margin-left: 20px;
     }
 
-    picture.gallery {
+    .gallery {
         width: 350px;
         height: 300px;
         display: block;
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-    picture.gallery:hover {
+    .gallery:hover {
         box-shadow: 0 0 40px #4838da;        
       }
 
