@@ -284,6 +284,10 @@ figure {
 	padding: 5px;
 }
 
+figcaption {
+    font-family: "Spectral", sans-serif;
+}
+
 
 
 
