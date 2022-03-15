@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomorrow's Weather Gallery</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/weather/css/small.css">
+    <link rel="stylesheet" href="/weather/css/medium.css">
+    <link rel="stylesheet" href="/weather/css/large.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/weatherlogo.png" alt="Weather Logo">
+        <section>
+            <h1 class="head">Tomorrow's Weather</h1>
+            <div class="motto">-"Bringing you up to date for tomorrow's plans."</div>
+        </section> 
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="preston.html">PRESTON</a></li>
+            <li><a href="#">SODA SPRINGS</a></li>
+            <li><a href="#">FISH HAVEN</a></li>
+            <li><a href="#">STORM CENTER</a></li>
+            <li class="currentpage"><a href="gallery-7.html">GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Tomorrow's Weather Gallery</h2>
+        <picture>
+            <img src="/weather/images/placeholder.JPG" data-src="images/coldmoon.JPG" alt="Wintery Moon">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.JPG" data-src="images/dash.JPG" alt="Dash the Dog">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.JPG" data-src="images/frost.JPG" alt="Frosty Branch">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.JPG" data-src="images/sunrise.JPG" alt="sunrise">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.JPG" data-src="images/sunset1.JPG" alt="Sunset 1">
+        </picture>
+        <picture>
+            <img src="/weather/images/placeholder.JPG" data-src="images/sunset2.JPG" alt="Sunset 2">
+        </picture>
+    </main>
+
+    <footer>
+        <p class="info">&copy; <span id="copyright"> </span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
+        <p class="info" id="currentDate"></p>        
+    </footer>
+
+    <script src="/weather/js/weather.js" defer></script>
+    <!-- <script src="/weather/js/lazy.js" defer></script> -->
+</body>
+</html>
