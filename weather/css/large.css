@@ -90,25 +90,25 @@
         opacity: 0.9;
     }
 
-.images {
-        display: grid;
-        max-width: 1200px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: 20px;
-    }
+    .images {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+            padding: 5px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+        }
 
     .gallery {
-        width: 350px;
-        height: 300px;
-        display: block;
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+            width: 350px;
+            height: 300px;
+            display: block;
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
 
     .gallery:hover {
-        box-shadow: 0 0 40px #4838da;        
-      }
+            box-shadow: 0 0 40px #4838da;        
+        }
 
 }

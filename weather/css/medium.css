@@ -46,11 +46,17 @@
         margin: 10px;   
     }
 
-.images {
+    .images {
         display: grid;
         max-width: 1200px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
         padding: 5px;
+    }
+
+    .gallery {
+        width: 350px;
+        height: 300px;
+        display: block;
     }
 }
