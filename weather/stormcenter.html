@@ -35,14 +35,14 @@
     </nav>
 
     <main>
-        <h1>Weather Event Report Page</h1>
+        <h2>Weather Event Report Page</h2>
     <form method="get" action="thanks.html">
         <fieldset>
             <legend>Reporter Information</legend>
             <label class="top">Full Name* <input type="text" name="fullname" minlength="5" required></label>
             <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
             <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-            <label class="top">Zip Code:*<input type="number" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
+            <label class="top">Zip Code:*<input type="number" id="zip" name="zip" required></label>
         </fieldset>
 
         <fieldset>
@@ -57,7 +57,7 @@
                 <option value="Thunder Storm">
                 <option value="Tornado"></datalist> </label>
             <label class="sbs">Storm Severity Index (1-10) <input type="range" name="Severity" min="1" max="10" value="5" class="slider" id="myRange" list="tickmarks">
-            Index =  <span id="index"></span></h3></label>
+            Index =  <span id="index"></span></label>
             <datalist id="tickmarks">
 			<option value="0">
 			<option value="1">
@@ -103,7 +103,7 @@
                 <h2>Contact Information:</h2>
                 <h3>&#9993; <a href="mailto:greenwoodjordan@hotmail.com">Tomorrow's Weather</a></h3>
                 <h3>&#128222; <a href="phone:1-250-217-4612">Main Office</a></h3>
-            </section>
+        
             <div class="social">      
                 <a class="socialmedia" href="https://www.facebook.com" target="_blank"><img class="icon" src="/weather/images/facebook2.png" alt="facebook"></a>
                 <a class="socialmedia" href="https://www.youtube.com" target="_blank"><img class="icon" src="/weather/images/youtube3.png" alt="youtube"></a>
