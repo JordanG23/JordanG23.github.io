@@ -1,0 +1,6 @@
+@media all and (min-width: 45.6em) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
