@@ -392,6 +392,75 @@ form label.top input:required:valid {
     border: 1px solid #999;
 }
 
+/* Home page */
+
+.townstat h2 {
+    font-size: 2.5em;
+    padding: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+.townstat h3 {
+    padding: 5px;
+    margin: 1px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-size: .75em;
+    line-height: .75em;
+    color: #000000;
+    position:relative;
+    text-align: center;
+}
+.townstat h4 {
+    padding: 15px;
+    margin: 2px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-size: 1.1em;
+    line-height: .75em;
+    color: #000000;
+    position:relative;
+}
+
+.townstat {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.townstat section {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    object-fit: cover;
+    max-height: 100%;
+    background-color: #C1D3FE;
+    margin: 10px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #ABC4FF;
+    text-align: center;
+}
+
+.townstat img {
+        align-self: center;
+        object-fit: cover;
+        width: 333px;
+        height: 250px;
+        max-height: 100%;
+        margin: 10px;
+    }
+
+    img.link {
+        display:flex;
+        flex-direction: row;
+        width: max-content;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+      
+
+
 
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storm Watch Thank you</title>
+    <title>Tomorrow's Weather Home</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/weather/css/small.css">
     <link rel="stylesheet" href="/weather/css/medium.css">
@@ -15,7 +15,7 @@
 
     <header>
         
-        <img class="logo" src="images/weatherlogo.png" alt="Weather Logo">
+        <img class="logo" src="/weather/images/weatherlogo.png" alt="Weather Logo">
         <section>
             <h1 class="head">Tomorrow's Weather</h1>
             <div class="motto">-"Bringing you up to date for tomorrow's plans."</div>
@@ -25,29 +25,40 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-            <li><a href="/lesson-5/index.html">HOME</a></li>
-            <li><a href="preston.html">PRESTON</a></li>
+            <li class="currentpage"><a href="/lesson-5/index.html">HOME</a></li>
+            <li><a href="/weather/preston.html">PRESTON</a></li>
             <li><a href="#">SODA SPRINGS</a></li>
             <li><a href="#">FISH HAVEN</a></li>
-            <li class="currentpage"><a href="stormcenter.html">STORM CENTER</a></li>
-            <li><a href="gallery-7.html">GALLERY</a></li>
+            <li><a href="/weather/stormcenter.html">STORM CENTER</a></li>
+            <li><a href="/weather/gallery-7.html">GALLERY</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1>Weather Event Submission</h1>
-        <p>Thank you for letting us know about this weather event. We will look at our current readings
-            and alert the appropriate authorities.</p>
+        <article class="report">
+            <h2>Warm Spring Invites Tourists.</h2>
+            <p>The month of March has brought warmth back to the Idaho region, particularly
+                in the three towns of Preston, Soda Springs, and Fish Haven. Idaho is well known 
+                for having all four seasons present, and this year is no exception. Come and enjoy 
+                what Idaho has to offer. Explore the many State Parks and experience the vast 
+                beauty this beautiful state has to offer.  
+            </p>
+        </article>
+        <div class="townstat"></div> 
         
+        <div class="links">
+            <h2>Visit these other Idaho sites.</h2>
+            <a class="govsites" href="https://visitidaho.org" target="_blank"><img class="link" src="/lesson-5/images/idaho.png" alt="Idaho Tourism"></a>
+            <a class="govsites" href="https://idaho.gov" target="_blank"><img class="link" src="/lesson-5/images/flag.webp" alt="Official Idaho Website"></a>
+        </div>
     </main>
 
     <footer>
         <div class="upperfooter">
-            
             <section class="contact">
                 <h2>Contact Information:</h2>
                 <h3>&#9993; <a href="mailto:greenwoodjordan@hotmail.com">Tomorrow's Weather</a></h3>
-                <h3>&#128222; <a href="phone:1-250-217-4612">Main Office</a></h3>
+                <h3>&#128222; <a href="tel:250-217-4612">Main Office</a></h3>
             </section>
             <div class="social">      
                 <a class="socialmedia" href="https://www.facebook.com" target="_blank"><img class="icon" src="/weather/images/facebook2.png" alt="facebook"></a>
@@ -55,12 +66,13 @@
                 <a class="socialmedia" href="https://www.twitter.com" target="_blank"><img class="icon" src="/weather/images/twitter3.png" alt="twitter"></a>
             </div>  
         </div>
-        <p class="info">&copy; <span id="copyright"> </span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a></p>
+        <p class="info">&copy; <span id="copyright">  </span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank"> Terms of Use </a> | <a class="wire" href="#" target="_blank"> Wire Frame </a></p>
         <p class="info" id="currentDate"></p>        
     </footer>
 
     <script src="/weather/js/weather.js" defer></script>
     <script src="/weather/js/windchill.js" defer></script>
+    <script src="/lesson-5/js/home.js" defer></script>
     
 </body>
 </html>

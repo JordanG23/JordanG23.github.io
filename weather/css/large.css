@@ -115,4 +115,19 @@
             padding: .4rem 0;
         }
 
+     /* home page */
+    
+    .townstat {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .townstat section {
+        display:block;
+    }
+
+    .townstat img {
+        max-width: fit-content;
+    }
+
 }

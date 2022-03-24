@@ -59,4 +59,23 @@
         height: 300px;
         display: block;
     }
+
+    /* home page */
+    
+    .townstat section {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 1;
+        align-items: center;
+    }
+
+    .townstat section:nth-child(even) {
+        flex-direction: row-reverse;
+        text-align: start;
+    }
+    .townstat img {
+    max-width: fit-content;
+    }
+    
+
 }
