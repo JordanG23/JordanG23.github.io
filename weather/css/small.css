@@ -458,6 +458,11 @@ form label.top input:required:valid {
         padding: 10px;
     }
 
+    img.artpic {
+        display:block;
+        float: right;
+    }
+
       
 
 
