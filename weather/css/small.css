@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
     padding: 10px;
     text-align: center;
+    margin: 15px;
 }
 
 p {
@@ -398,6 +399,7 @@ form label.top input:required:valid {
     font-size: 2.5em;
     padding: 2px;
     margin-top: 20px;
+    margin-bottom: 2px;
     text-align: center;
 }
 .townstat h3 {
@@ -412,6 +414,7 @@ form label.top input:required:valid {
     text-align: center;
 }
 .townstat h4 {
+    display: block;
     padding: 15px;
     margin: 2px;
     text-align: center;

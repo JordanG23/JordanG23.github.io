@@ -14,7 +14,7 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++ ) {
             let townstat = document.createElement('section');
             
-            let textfield = document.createElement('article');
+            
 
             let headline = document.createElement('h2');
             headline.textContent = towns[i].name;
@@ -35,6 +35,14 @@ fetch(requestURL)
             let rain = document.createElement('h4');
             rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + ' in.';
             townstat.appendChild(rain);          
+
+            let div = document.createElement('div');
+            div.appendChild(headline)
+            div.appendChild(motto)
+            div.appendChild(founded)
+            div.appendChild(popu)
+            div.appendChild(rain)
+            townstat.appendChild(div)
 
             let img = document.createElement('img');
             img.setAttribute('src', './images/city' + (i + 1) + ".JPG");
