@@ -466,6 +466,11 @@ form label.top input:required:valid {
         float: right;
     }
 
+    p.article {
+        font-size: 18px;
+
+    }
+
       
 
 
