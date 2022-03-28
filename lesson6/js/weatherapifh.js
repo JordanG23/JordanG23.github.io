@@ -1,7 +1,7 @@
 
-
-const weatherApiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=64a077ede0594723caa3d5ad20669634'
-const forecastApiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=64a077ede0594723caa3d5ad20669634'
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const weatherApiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=64a077ede0594723caa3d5ad20669634'
+const forecastApiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=64a077ede0594723caa3d5ad20669634'
 
 // ***current weather summary***//
 fetch(weatherApiURL)

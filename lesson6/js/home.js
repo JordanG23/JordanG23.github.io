@@ -12,9 +12,7 @@ fetch(requestURL)
             }
         });
         for (let i = 0; i < towns.length; i++ ) {
-            let townstat = document.createElement('section');
-            
-            
+            let townstat = document.createElement('section');           
 
             let headline = document.createElement('h2');
             headline.textContent = towns[i].name;
