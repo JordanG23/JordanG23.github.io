@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Weather & News</title>
+    <link rel="stylesheet" href="/lesson6/css/normalize.css">
+    <link rel="stylesheet" href="/lesson6/css/small.css">
+    <link rel="stylesheet" href="/lesson6/css/medium.css">
+    <link rel="stylesheet" href="/lesson6/css/large.css">
+    
+</head>
+<body>
+
+    <header>
+        
+        <img class="logo" src="/lesson6/images/weatherlogo.png" alt="Weather Logo">
+        <section>
+            <h1 class="head">Tomorrow's Weather</h1>
+            <div class="motto">-"Bringing you up to date for tomorrow's plans."</div>
+        </section>   
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+            <li><a href="/lesson6/index.html">HOME</a></li>
+            <li class="currentpage"><a href="/lesson6/preston.html">PRESTON</a></li>
+            <li><a href="#">SODA SPRINGS</a></li>
+            <li><a href="#">FISH HAVEN</a></li>
+            <li><a href="/lesson6/stormcenter.html">STORM CENTER</a></li>
+            <li><a href="/lesson6/gallery.html">GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section class="hero">
+            <h2>Preston Idaho</h2>
+        <picture>
+            <source srcset="/lesson6/images/wdd230_image_franklin800.webp" media="(min-width:730px)
+             and (max-width: 1055px)">
+            <source srcset="/lesson6/images/wdd230_image_franklin1200.webp" media="(min-width:1056px)">
+            <img src="/lesson6/images/wdd230_image_franklin400.webp" alt="franklin">
+        </picture>
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Condition: <span id="condition"></span></p>
+                <p>Currently: <span id="temp"></span> &deg; F</p>
+                <p>Feels Like: <span id="chill"></span> &deg;F</p>
+                <p>High: <span id="high"></span> &deg;F</p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>                
+            </section>
+
+        </section>
+        
+        <h2>5-Day Forecast</h2>
+            <div class="forecast"></div>
+            <p>Weather Data provided by OpenWeatherMap</p>
+            <br>
+        <h2>Tulip Festival Fast Approaching</h2>
+            <div class="news">
+
+                <picture class="tulip">
+                    <source srcset="/lesson6/images/tulips400.webp" media="(min-width:730px)
+                                    and (max-width: 1055px)">
+                    <source srcset="/lesson6/images/tulips600.webp" media="(min-width:1056px)">
+                    <img src="/lesson6/images/tulips200.webp" alt="Tulips">
+                </picture>
+                
+                <p class="article">
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales sit amet lectus vel pretium.
+                    Proin malesuada nisl arcu, sit amet pellentesque orci tristique id. Mauris tincidunt leo nec blandit 
+                    pretium. Mauris enim metus, vulputate a urna vel, cursus tincidunt dolor. Integer placerat porttitor 
+                    tellus vitae facilisis. Fusce vitae pharetra felis. Nullam at leo urna. Suspendisse massa dolor, volutpat 
+                    sed sapien congue, convallis tempus eros. Maecenas laoreet accumsan turpis non imperdiet. Nullam non lorem 
+                    vehicula magna cursus ullamcorper id id nunc. Aliquam erat volutpat.
+                </p>
+                <p class="article">
+                        In ultrices mollis enim at eleifend. Morbi non velit ac erat accumsan pharetra. Vestibulum convallis egestas
+                    massa non gravida. Fusce vehicula ex vitae dolor facilisis porttitor. Praesent efficitur sed quam nec gravida.
+                    Integer ligula arcu, dignissim a placerat quis, faucibus et lacus. Donec egestas elementum orci, eu congue
+                    mi elementum ut. Nullam vel enim eu nunc feugiat placerat. Nam efficitur quam eu tempus vulputate. Morbi
+                    condimentum lorem nec lorem fringilla suscipit. Curabitur eget feugiat felis, at bibendum ligula. Pellentesque
+                    feugiat enim eu lectus efficitur, vel ullamcorper mi sodales. Aliquam nunc lectus, congue ac lobortis id,
+                    laoreet et lectus. Etiam sed posuere metus. Vivamus eget risus sit amet lectus rutrum egestas ut quis diam.
+                    Nulla facilisi. </p>
+
+                </div>
+    </main>
+
+    <footer>
+        <div class="upperfooter">
+            <img class="map" src="/lesson6/images/prestonlong.webp" alt="Map of Preston, Idaho">
+            <section class="contact">
+                <h2>Contact Information:</h2>
+                <h3>&#9993; <a href="mailto:greenwoodjordan@hotmail.com">Tomorrow's Weather</a></h3>
+                <h3>&#128222; <a href="phone:1-250-217-4612">Main Office</a></h3>
+            </section>
+            <div class="social">      
+                <a class="socialmedia" href="https://www.facebook.com" target="_blank"><img class="icon" src="/lesson6/images/facebook2.png" alt="facebook"></a>
+                <a class="socialmedia" href="https://www.youtube.com" target="_blank"><img class="icon" src="/lesson6/images/youtube3.png" alt="youtube"></a>
+                <a class="socialmedia" href="https://twitter.com" target="_blank"><img class="icon" src="/lesson6/images/twitter3.png" alt="twitter"></a>
+            </div>  
+        </div>
+        
+        <p class="info">&copy; <span id="copyright"> </span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank">Terms of Use</a> |<a class="weatherlic" href="https://openweathermap.org/" target="_blank">Open Weather Map</a></p>
+        <p class="info" id="currentDate"></p> 
+               
+    </footer>
+
+    
+    <script src="/lesson6/js/weather.js" defer></script>
+    <script src="/lesson6/js/weatherapi.js" defer></script>
+    <script src="/lesson6/js/windchill.js" defer></script>
+    
+</body>
+</html>
