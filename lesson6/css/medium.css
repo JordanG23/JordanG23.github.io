@@ -34,6 +34,18 @@
         max-height: 80%;
     }
 
+    .sodasummary {
+        position: absolute;
+        top: 44px;
+        right: 35px;
+        background: radial-gradient(#fdd835, #ABC4FF);
+        border: 1px solid #000000;
+        padding: 1.5rem;
+        opacity: 0.9;
+        max-width: 80%;
+        max-height: 80%;
+    }
+
     .article {
         text-align: left;
         padding: 15px;

@@ -154,6 +154,27 @@ picture {
     text-align: left;
 }
 
+.sodasummary {
+    margin: 3%;
+    position: static;
+    background: radial-gradient(#fdd835, #ABC4FF);
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    opacity: 1;
+    width: auto;
+   }
+
+.sodasummary span {
+	font-style: italic;
+    color: #4838da;
+	font-weight: 700;
+}
+
+.sodasummary h2 {
+    text-decoration: underline;
+    text-align: left;
+}
+
 .forecast {
 	display: flex;
 	flex-flow: row wrap;
@@ -469,6 +490,15 @@ form label.top input:required:valid {
         font-size: 18px;
 
     }
+
+.events section {
+    background-color: #C1D3FE;
+    margin: 10px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #ABC4FF;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
       
 

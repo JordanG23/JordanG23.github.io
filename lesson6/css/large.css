@@ -90,6 +90,16 @@
         opacity: 0.9;
     }
 
+    .sodasummary {
+        position: absolute;
+        top: 35px;
+        right: 15px;
+        background: radial-gradient(#fdd835, #ABC4FF);
+        border: 1px solid #000000;
+        padding: 1.5rem;
+        opacity: 0.9;
+    }
+
     .images {
             display: grid;
             width: 100%;
