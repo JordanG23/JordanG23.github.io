@@ -48,10 +48,11 @@ header {
     background-color: #EDF2FB;
 }
 
-.logo {
+img.logo {
     width: 100px;
-    height: 100px;
-    display: flex;
+    height: auto;
+    display: block;
+    
 }
 
 .head {

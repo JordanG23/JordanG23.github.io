@@ -8,6 +8,13 @@ fetch(weatherApiURL)
   .then((response) => response.json())
   .then((jsObject) => {
       console.log(jsObject);
+      const weatherSummary = jsObject;
+
+      let temp = weatherSummary.main.temp;
+      let speed = weatherSummary.wind.speed;
+      let chill = 35.74 + 0.6215 * temp - 35.75 * speed ** 0.16 + 0.4275 * temp * speed ** 0.16; 
+      document.querySelector("#chill").textContent = Math.round(chill);  
+
       document.getElementById('temp').innerText = jsObject.main.temp;
       document.getElementById('condition').textContent = jsObject.weather[0].description;
       document.getElementById('high').textContent = jsObject.main.temp_max;
@@ -19,6 +26,7 @@ fetch(weatherApiURL)
       document.getElementById('imagesrc').textContent = imagesrc;
       document.getElementById('icon').setAttribute('src', imagesrc);
       document.getElementById('icon').setAttribute('alt', desc);
+
   });
 
 fetch(forecastApiURL)
@@ -97,3 +105,6 @@ fetch(requestURL)
             document.querySelector('div.events').appendChild(events);
         }
       });
+
+
+      
