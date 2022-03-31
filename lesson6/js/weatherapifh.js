@@ -80,19 +80,19 @@ fetch(requestURL)
             headline.textContent = 'Upcoming Events';
             events.appendChild(headline);
 
-            let event1 = document.createElement('h4');
+            let event1 = document.createElement('h3');
             event1.textContent = towns[i].events[0];
             events.appendChild(event1);   
             
-            let event2 = document.createElement('h4');
+            let event2 = document.createElement('h3');
             event2.textContent = towns[i].events[1];
             events.appendChild(event2);
 
-            let event3 = document.createElement('h4');
+            let event3 = document.createElement('h3');
             event3.textContent = towns[i].events[2];
             events.appendChild(event3);
 
-            let event4 = document.createElement('h4');
+            let event4 = document.createElement('h3');
             event4.textContent = towns[i].events[3];
             events.appendChild(event4);
 
