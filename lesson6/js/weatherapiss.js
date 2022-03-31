@@ -7,7 +7,7 @@ const forecastApiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607
 fetch(weatherApiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-      console.log(jsObject);
+    //   console.log(jsObject);
       const weatherSummary = jsObject;
 
       let temp = weatherSummary.main.temp;
@@ -15,24 +15,19 @@ fetch(weatherApiURL)
       let chill = 35.74 + 0.6215 * temp - 35.75 * speed ** 0.16 + 0.4275 * temp * speed ** 0.16; 
       document.querySelector("#chill").textContent = Math.round(chill);
 
-      document.getElementById('temp').textContent = jsObject.main.temp;
+      document.getElementById('temp').innerText = Math.round(jsObject.main.temp);
       document.getElementById('condition').textContent = jsObject.weather[0].description;
-      document.getElementById('high').textContent = jsObject.main.temp_max;
+      document.getElementById('high').textContent = Math.round(jsObject.main.temp_max);
       document.getElementById('humidity').textContent = jsObject.main.humidity;
-      document.getElementById('speed').textContent = jsObject.wind.speed;
+      document.getElementById('speed').innerText = Math.round(jsObject.wind.speed);
 
-      const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-      const desc = jsObject.weather[0].description;
-      document.getElementById('imagesrc').textContent = imagesrc;
-      document.getElementById('icon').setAttribute('src', imagesrc);
-      document.getElementById('icon').setAttribute('alt', desc);
 
   });
 
 fetch(forecastApiURL)
 .then((response) => response.json())
 .then((jsObject) => {
-    console.log(jsObject);
+    // console.log(jsObject);
     const daynames = [
         "Sunday",
         "Monday",
@@ -61,7 +56,7 @@ fetch(forecastApiURL)
             img.setAttribute("id", "fore")
             fiveday.appendChild(img)
             let temper = document.createElement("span")
-            temper.textContent = weatherForecast[i].main.temp + "°F"
+            temper.textContent = Math.round(weatherForecast[i].main.temp) + "°F";
             temper.setAttribute("class", "data")
             fiveday.appendChild(temper)
         }
