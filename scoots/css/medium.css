@@ -54,4 +54,10 @@
         align-self: center;
         justify-self: center;
     }
+/* rental page */
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

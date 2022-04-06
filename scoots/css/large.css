@@ -69,6 +69,13 @@
         flex-direction: row;
     }
 
+    /* rental page */
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10px;
+    }
+
    
 
 }

@@ -1,4 +1,4 @@
-const requestURL = '/scoots/data/reservation.json';
+const requestURL = 'https://JordanG23.github.io/scoots/data/reservation.json'
 
 fetch(requestURL)
       .then(function (response) {
@@ -6,21 +6,18 @@ fetch(requestURL)
       })
       .then(function (jsonObject) {
         // console.table(jsonObject);  // temporary checking for valid response and data parsing
-        const prophets = jsonObject['prophets'];
-        for (let i = 0; i < prophets.length; i++ ) {
+        const vehicles = jsonObject['vehicles'];
+        for (let i = 0; i < vehicles.length; i++ ) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+            h2.textContent = vehicles[i].name + ' ' + vehicles[i].lastname;
             card.appendChild(h2);
-            let h3 = document.createElement('h3');
-            h3.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-            card.appendChild(h3);
-            let h4 = document.createElement('h4');
-            h4.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-            card.appendChild(h4);
+            let max = document.createElement('h3');
+            max.textContent = 'Maximum Occupants: ' + vehicles[i].maxPersons;
+            card.appendChild(max);
             let img = document.createElement('img');
-            img.setAttribute('src', prophets[i].imageurl);
-            img.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + i+1);
+            img.setAttribute('src', vehicles[i].imageurl);
+            img.setAttribute('alt', vehicles[i].name + ' ' + vehicles[i].lastname + ' - ' + i+1);
             card.appendChild(img);
             document.querySelector('div.cards').appendChild(card);
         }

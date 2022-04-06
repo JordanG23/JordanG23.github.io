@@ -18,8 +18,8 @@
         
         <h1 class="head">~Scoots Vehicle Rentals</h1>
         
-        <section class="summary">
-            <h2>Weather Summary</h2>
+        <div class="summary">
+            <h2>Cozumel Weather</h2>
             <p>Condition: <span id="condition"></span></p>
             <p>Currently: <span id="temp"></span> &deg; F</p>
             <p>Humidity: <span id="humidity"></span> %</p> 
@@ -27,7 +27,7 @@
             <p>Weather five days from now:
             <div class="forecast"></div> 
             </p>             
-        </section>
+        </div>
 
         
 
@@ -46,23 +46,102 @@
     </nav>
 
     <main>
-        <h2>Welcome to Cozumel</h2>
-        <picture>
-            <source srcset="/scoots/images/cozumel800.webp" media="(min-width:730px)
-             and (max-width: 1055px)">
-            <source srcset="/scoots/images/cozumel1200.webp" media="(min-width:1056px)">
-            <img src="/scoots/images/cozumel400.webp" alt="Cozumel town waterfront">
-        </picture>
-        <p>Come explore the beautiful island of Cozumel. Discover the lush green jungles and the gorgeous turquoise waters of this popular tourist destination. Explore the 
-            ancient ruins, or hang out at the beach, or the dolphin discovery center. There is no way you can get bored here. From fun activities during the day, to an amazing night life,
-            there is never a dull moment on Cozumel.
+        <h2>Types of Vehicles Available to Rent</h2>
+        
+        <p>Whether you are by yourself, or with your whole family, we have a vehicle to meet your needs. Find out below
+             what kinds of vehicles we have, and the pricing chart for those vehicles.
         </p>
+        <div class="cards"></div>
+
+        <div class="table">
+            <table>
+                <tr>
+                    <th colspan="6">Max Persons and Price Chart (includes Tax)</th>
+                </tr>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="2">Reservation</th>
+                    <th colspan="2">Walk-in</th>
+                </tr>
+                <tr style="height:50px">
+                    <th> Rental Type </th>
+                    <th> Max. Persons </th>
+                    <th> Half Day (3 hrs) </th>
+                    <th> Full Day </th>
+                    <th> Half Day (3 hrs) </th>
+                    <th> Full Day </th>
+                </tr>
+                <tr>
+                    <td> Honda Metro Scooter </td>
+                    <td> 1 </td>
+                    <td>$20</td>
+                    <td>$30</td>
+                    <td>$25</td>
+                    <td>$35</td>
+                </tr>
+                <tr>
+                    <td> Honda Dio Scooter </td>
+                    <td> 2 </td>
+                    <td>$30</td>
+                    <td>$40</td>
+                    <td>$35</td>
+                    <td>$45</td>
+                </tr>
+                <tr>
+                    <td> Honda PCX150 Scooter </td>
+                    <td> 2 </td>
+                    <td>$40</td>
+                    <td>$50</td>
+                    <td>$45</td>
+                    <td>$55</td>
+                </tr>
+                <tr>
+                    <td> Honda Pioneer SXS </td>
+                    <td> 4 </td>
+                    <td>$50</td>
+                    <td>$70</td>
+                    <td>$60</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td> Jeep Wrangler-2 door </td>
+                    <td> 4 </td>
+                    <td>$60</td>
+                    <td>$85</td>
+                    <td>$70</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td> Jeep Wrangler-4 door with a/c </td>
+                    <td> 5 </td>
+                    <td>$70</td>
+                    <td>$100</td>
+                    <td>$85</td>
+                    <td>$125</td>
+                </tr>
+            </table>
+        </div>
+        <div class="rentinfo">
+            <h2>Information and Services</h2>
+            <ul>
+                <li>-A $50 security deposit is required to confirm reservations.</li>
+                <li>-A valid drivers license is required in hand at time of rental.</li>
+                <li>-No one under 12 years of age is allowed to ride on the scooters.</li>
+                <li>-Fuel charge not included.</li>
+                <li>-Unlimited mileage.</li>
+                <li>-Liability insurance is free of charge.</li>
+                <li>-Reservations rate requires 24 hour prior notification.</li>
+                <li>-Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                <li>-Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li>-Rentals may be returned to either location.</li>
+            </ul>
+        </div>
     </main>
 
     
     <footer>
         <div class="upperfooter">
-            <section class="contact">
+            <div class="contact">
                 <h2>Contact Information:</h2>
                 <h3>&#9993; <a href="mailto:greenwoodjordan@hotmail.com">~Scoots Vehicle Rentals</a></h3>
                 <h3>&#128222; <a href="tel:250-217-4612">Main Office 987-555-1234</a></h3>
@@ -71,7 +150,7 @@
                 <iframe class="map-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14947.536817645!2d-86.9529226641124!3d20.510972627940156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cceda3d799%3A0xbf8ea7e97451cfd8!2sCentro%2C%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sca!4v1649276148832!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <iframe class="map-right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.7410313393993!2d-86.97695068467345!3d20.475827011798685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sca!4v1649276262567!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </section>
+            </div>
             <div class="social">      
                 <a class="socialmedia" href="https://www.facebook.com" target="_blank"><img class="icon" src="/scoots/images/facebook2.png" alt="facebook"></a>
                 <a class="socialmedia" href="https://www.youtube.com" target="_blank"><img class="icon" src="/scoots/images/youtube3.png" alt="youtube"></a>
@@ -87,5 +166,6 @@
     <script src="/scoots/js/currentday.js" defer></script>
     <script src="/scoots/js/lazy.js" defer></script>
     <script src="/scoots/js/weather.js" defer></script>
+    <script src="/scoots/js/reservations.js" defer></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
     "vehicles": [
       {
         "name": "Honda",
-        "lastname": "Metro",
+        "lastname": "Metro (49cc)",
         "maxPersons": "1",
         "reshalfdayprice": "$20",
         "resfulldayprice": "$30",
@@ -13,7 +13,7 @@
       },
       {
         "name": "Honda",
-        "lastname": "Dio",
+        "lastname": "Dio (110cc)",
         "maxPersons": "2",
         "reshalfdayprice": "$30",
         "resfulldayprice": "$40",
@@ -24,7 +24,7 @@
       },
       {
         "name": "Honda",
-        "lastname": "PCX150",
+        "lastname": "PCX150 (149cc)",
         "maxPersons": "2",
         "reshalfdayprice": "$40",
         "resfulldayprice": "$50",
