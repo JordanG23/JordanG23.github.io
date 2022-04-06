@@ -1,0 +1,70 @@
+{
+    "vehicles": [
+      {
+        "name": "Honda",
+        "lastname": "Metro",
+        "maxPersons": "1",
+        "reshalfdayprice": "$20",
+        "resfulldayprice": "$30",
+        "walhalfdayprice": "$25",
+        "walfulldayprice": "$35",
+        "order": 1,
+        "imageurl": "/scoots/images/HondaMetro600.webp"
+      },
+      {
+        "name": "Honda",
+        "lastname": "Dio",
+        "maxPersons": "2",
+        "reshalfdayprice": "$30",
+        "resfulldayprice": "$40",
+        "walhalfdayprice": "$35",
+        "walfulldayprice": "$45",
+        "order": 2,
+        "imageurl": "/scoots/images/HondaDio600.webp"
+      },
+      {
+        "name": "Honda",
+        "lastname": "PCX150",
+        "maxPersons": "2",
+        "reshalfdayprice": "$40",
+        "resfulldayprice": "$50",
+        "walhalfdayprice": "$45",
+        "walfulldayprice": "$55",
+        "order": 3,
+        "imageurl": "/scoots/images/HondaPCX150600.webp"
+      },
+      {
+        "name": "Honda",
+        "lastname": "Pioneer",
+        "maxPersons": "4",
+        "reshalfdayprice": "$50",
+        "resfulldayprice": "$70",
+        "walhalfdayprice": "$60",
+        "walfulldayprice": "$80",
+        "order": 4,
+        "imageurl": "/scoots/images/HondaPioneer600.webp"
+      },
+      {
+        "name": "Jeep",
+        "lastname": "Wrangler 2 door",
+        "maxPersons": "4",
+        "reshalfdayprice": "$60",
+        "resfulldayprice": "$85",
+        "walhalfdayprice": "$70",
+        "walfulldayprice": "$90",
+        "order": 5,
+        "imageurl": "/scoots/images/jeep2door600.webp"
+      },
+      {
+        "name": "Jeep",
+        "lastname": "Wrangler 4 door",
+        "maxPersons": "5",
+        "reshalfdayprice": "$70",
+        "resfulldayprice": "$100",
+        "walhalfdayprice": "$85",
+        "walfulldayprice": "$125",
+        "order": 1,
+        "imageurl": "/scoots/images/jeep4door600.webp"
+      }
+    ]
+}
