@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Spectral&display=swap');
+
+/* All pages and Home page CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+html {
+    background-color: #519948;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #E3D7C2;
+    padding: 1em;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    max-width: 100%;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Spectral", sans-serif;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Karla", serif;
+    color: #000000;
+    padding: 0;
+    margin:0;
+}
+
+header {
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    color: #000000;
+    background-color: #18C3EA;
+}
+
+img.logo {
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+    
+}
+
+.head {
+    display: block;
+    font-family: "Spectral", sans-serif;
+    font-size: 40px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 115px;
+}
+
+.summary {
+   
+    flex-direction: column;
+    margin-left: 50px;
+ }
+
+.navigation {
+    font-family: "Spectral", sans-serif;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #AE1313;
+    padding: 0.25em;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.25em;
+    flex-direction: column;
+    margin: 0.25em;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation a {
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+.navigation a:link, .navigation a:visited {
+    color: #ffffff;
+}
+
+.navigation a:hover {
+    color: #000000;
+    background-color: #18C3EA;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigation li {
+    display: none;
+    list-style-type: none;
+    flex: 1 1 100%;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+.currentpage {
+    background-color: #519948;
+}
+
+ul {
+    font-family: "Karla", sans-serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+div.images {
+    display: block;
+    margin: 10px auto;
+}
+
+
+figcaption {
+    font-family: "Spectral", sans-serif;
+    text-align: center;
+}
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    margin: 15px auto;
+    font-family: "Spectral", serif;
+    font-size: 25px;
+    border-radius: 3em;
+    color: #ffffff;
+    background-color: #AE1313;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 1em 2em;
+    width: 200px;
+}
+
+.maps {
+    margin-bottom: 10px;
+}
+
+.map-left {
+    margin: 10px auto;
+}
+
+.map-right {
+    margin: 10px auto;
+}
+
+a.socialmedia {
+    display: none;
+    padding: 5px;
+    margin: 0;
+}
+
+div.social {
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 45px;
+    height: 45px;
+}
+  
+.icon:hover {
+    background-color: #B6CCFE;
+    color: #4838da;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #D7E3FC;
+}
+
+p.info {
+    font-size: 16px;
+    font-family: "Karla", serif;
+    color: #000000;
+    padding: 1em;
+    margin:0 auto;
+}
+
+.info {
+    display: flex;
+    max-width: 1200px;
+    background-color: #18C3EA;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    flex-direction: column;
+}
+
+/* Rental page CSS */
+
+/* Reservations page CSS */
+
+/* Tours page CSS */
+
+/* Contact page CSS */

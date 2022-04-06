@@ -1,0 +1,57 @@
+
+@media (min-width: 32.5em) {
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation ul {
+        list-style-type: none;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .images {
+        display: grid;
+        max-width: 1200px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        padding: 5px;
+    }
+
+    .gallery {
+        width: 350px;
+        height: 300px;
+        display: block;
+        margin-left: 50px;
+    }
+
+    div.images {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+
+    .button {
+        width: 400px;
+    }
+
+    .maps {
+        display: grid;
+        margin-bottom: 50px;
+    }
+
+    .map-left {
+        grid-column: 1 / 2;
+        align-self: center;
+        justify-self: center;
+    }
+       
+    .map-right {
+        grid-column: 2 / 2;
+        align-self: center;
+        justify-self: center;
+    }
+}
