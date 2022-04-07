@@ -40,8 +40,7 @@
             <li><a href="/scoots/rentals.html">Rentals</a></li>  
             <li class="currentpage"><a href="/scoots/reservations.html">Reservations</a></li>  
             <li><a href="/scoots/tours.html">Tours</a></li> 
-            <li><a href="/scoots/contact.html">Contact</a></li> 
-            <li><a href="/scoots/site-plan.html">Site-plan</a></li>                     
+            <li><a href="/scoots/contact.html">Contact</a></li>                      
         </ul>
     </nav>
 
@@ -53,10 +52,69 @@
             <source srcset="/scoots/images/truck600.webp" media="(min-width:1056px)">
             <img src="/scoots/images/truck200.webp" alt="Old truck on the beach.">
         </picture>
-        <p>Come explore the beautiful island of Cozumel. Discover the lush green jungles and the gorgeous turquoise waters of this popular tourist destination. Explore the 
-            ancient ruins, or hang out at the beach, or the dolphin discovery center. There is no way you can get bored here. From fun activities during the day, to an amazing night life,
-            there is never a dull moment on Cozumel.
-        </p>
+        <br>
+        <h3>Please fill out the form below to reserve your ride for your adventure of this tropical paradise.
+        </h3>
+
+        <form method="get" action="/scoots/confirmation.html">
+            <fieldset>
+                <legend>Renter Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullname" minlength="5" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Country: <input type="text" name="country"></label>
+                <label class="top">Cruise Line <input type="text" id="cruisetypes" list="cruiselines">
+                    <datalist id="cruiselines">
+                    <option value="Princess">
+                    <option value="Celebrity">
+                    <option value="Carnival">
+                    <option value="Royal Caribbean">
+                    <option value="Disney">
+                    <option value="Norwegian"></datalist> </label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Vacation Information</legend>
+        
+                <label class="top">Date of Rental* <input type="date" name="eventdate" required></label>
+                <label Class="top">Period of Rental? <input type="number" name="Required Rental Period">
+                
+                <label class="top">Vehicle Type:*
+                <select name="vehicle" required>
+                    <option hidden value="">Please Select Vehicle &#9662;</option>
+                    <option value="hondaMetro">Honda Metro</option>
+                    <option value="hondaDio">Honda Dio</option>
+                    <option value="hondaPCX150">Honda PCX150</option>
+                    <option value="hondaPioneer">Honda Pioneer</option>
+                    <option value="jeep2door">Jeep Wrangler 2-door</option>
+                    <option value="jeep4door">Jeep Wrangler 4-door w/ac</option>
+                </select>
+                </label>
+
+                <label class="top">Rental Location:*
+                    <select name="location" required>
+                        <option hidden value="">Please Select Location &#9662;</option>
+                        <option value="elcentro">el Centro</option>
+                        <option value="terminalpuertamaya">Terminal Puerta Maya</option>
+                    </select>
+                    </label>
+     
+            </fieldset>
+    
+            <fieldset>
+                <legend>Special Accomodations</legend>
+                <label class="top">Any special arrangements needed?</label>
+                <label class="sbs"><input type="radio" name="special" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="special" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="special" value="no"> No</label>
+                <label class="topbox">Comments: </label>
+                <label class="topbox"><textarea class="inputbox" name="user_message">Write comments here.</textarea></label>
+                
+            </fieldset>
+            <input type="submit" value="Reserve Vehicle" class="submitBtn">
+    
+        </form>
+
     </main>
     <footer>
         <div class="upperfooter">
@@ -76,7 +134,7 @@
                 <a class="socialmedia" href="https://twitter.com/" target="_blank"><img class="icon" src="/scoots/images/twitter3.png" alt="twitter"></a>
             </div>  
         </div>
-        <p class="info">&copy; <span id="copyright">  </span> | W. Jordan Greenwood | <a class="terms" href="#" target="_blank"> Terms of Use </a></p>
+        <p class="info">&copy; <span id="copyright">  </span> | W. Jordan Greenwood | <a class="siteplan" href="/scoots/site-plan.html" target="_blank"> Siteplan </a></p>
             <hr>
             <span id="lastUpdated"></span>  
                
