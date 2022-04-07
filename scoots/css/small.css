@@ -128,6 +128,7 @@ img.logo {
 
 .currentpage {
     background-color: #519948;
+    color: #000000;
 }
 
 ul {
@@ -199,7 +200,7 @@ div.social {
 }
   
 .icon:hover {
-    background-color: #B6CCFE;
+    background-color: #18C3EA;
     color: #4838da;
     border-radius: 8px;
     box-shadow: 10px 10px 10px #D7E3FC;
@@ -221,6 +222,10 @@ p.info {
     justify-content: center;
     line-height: 1em;
     flex-direction: column;
+}
+
+.siteplan {
+    color: #000000;
 }
 
 /* Rental page CSS */
