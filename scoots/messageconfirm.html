@@ -5,14 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="Author" content="Jordan Greenwood, BYU-I, WDD 230-18.">
-        <meta name="description" content="Tours page for the '~Scoots' rental website">
-        <title>~Scoots Tours - Cozumel</title>
+        <meta name="description" content="Confirmation landing page for the '~Scoots' rental website">
+        <title>~Scoots Rental Confirmation</title>
         <link rel="stylesheet" href="/scoots/css/normalize.css">
-        <link rel="stylesheet" href="/scoots/css/small.css">
-        <link rel="stylesheet" href="/scoots/css/medium.css">
-        <link rel="stylesheet" href="/scoots/css/large.css">
+    <link rel="stylesheet" href="/scoots/css/small.css">
+    <link rel="stylesheet" href="/scoots/css/medium.css">
+    <link rel="stylesheet" href="/scoots/css/large.css">
     </head>
 <body>
+
     <header>
         <a class="logo" href="/scoots/index.html"><img class="logo" src="/scoots/images/scoots2.png" alt="~Scoots Logo. Red motorbike moving to the left."></a>
         
@@ -25,7 +26,7 @@
             <p>Humidity: <span id="humidity"></span> %</p> 
             <br>
             <p>Weather five days from now:</p>
-            <div class="forecast"></div>            
+            <div class="forecast"></div>             
         </div>
 
         
@@ -38,48 +39,24 @@
             <li><a href="/scoots/index.html">Home</a></li> 
             <li><a href="/scoots/rentals.html">Rentals</a></li>  
             <li><a href="/scoots/reservations.html">Reservations</a></li>  
-            <li class="currentpage"><a href="/scoots/tours.html">Tours</a></li> 
-            <li><a href="/scoots/contact.html">Contact</a></li>                     
+            <li><a href="/scoots/tours.html">Tours</a></li> 
+            <li><a href="/scoots/contact.html">Contact</a></li> 
+                                
         </ul>
     </nav>
 
     <main>
-        <h2>Tours Available</h2>
-        <picture>
-            <source srcset="/scoots/images/cruiseships800.webp" media="(min-width:730px)
-             and (max-width: 1055px)">
-            <source srcset="/scoots/images/cruiseships1200.webp" media="(min-width:1056px)">
-            <img src="/scoots/images/cruiseships400.webp" alt="Cruise ships in port">
-        </picture>
-        <h2>So Much to See and Do!</h2>
-        <p>There is so much to do on this Island. From the dolphin discovery center to the jungle walks. There will never be a 
-            dull moment while you are staying here. Whether you are here for the day or week, there is much to explore and do.
+        <h2>Confirmation of Message</h2>
+        <p>We've got your message and will get back to you as soon as we can. Thank you, and have a great day!
         </p>
+        <br>
+        <picture>
+            <source srcset="/scoots/images/cozumel800.webp" media="(min-width:730px)
+             and (max-width: 1055px)">
+            <source srcset="/scoots/images/cozumel1200.webp" media="(min-width:1056px)">
+            <img src="/scoots/images/cozumel400.webp" alt="Cozumel town waterfront">
+        </picture>
         
-        <div class="images">
-            <figure class="gallery">
-                <picture>
-                    <img src="/scoots/images/placeholder2.JPG" data-src="/scoots/images/lighthouse600.webp" alt="Lighthouse in front of a town on Cozumel">
-                </picture>
-                <figcaption>Lighthouse at Punta Langosta Plaza</figcaption>
-            </figure>
-
-            <figure class="gallery">
-                <picture>
-                    <img src="/scoots/images/placeholder2.JPG" data-src="/scoots/images/pyramid600.webp" alt="Ancient Mayan pyramid on Cozumel">
-                </picture>
-                <figcaption>Ancient Mayan Pyramid</figcaption>
-            </figure>
-        </div>
-        <h2>Brief Island History</h2>
-        <div class="article">
-            <p> Cozumel was a commercial and ceremonial centre during the Mayan period (about 250 to 950 CE), and the island has several small archaeological 
-            sites. In 1518 Juan de Grijalva led the first Spanish expedition to Cozumel. In 1519 Hernán Cortés used the island as a base for Spanish efforts
-            to conquer the Maya. During most of the Spanish colonial era, Cozumel was only sparsely populated, but trading ships and pirates occasionally
-            sought shelter and replenished supplies on the island, which was protected behind offshore reefs. Area 189 square miles (489 square km). 
-            Pop. (2005) 71,401; (2010) 77,236. </p> 
-            <p>-Encyclopedia Britannica</p>
-        </div>
     </main>
     <footer>
         <div class="upperfooter">
@@ -106,7 +83,6 @@
     </footer>
 
     <script src="/scoots/js/currentday.js" defer></script>
-    <script src="/scoots/js/lazy.js" defer></script>
     <script src="/scoots/js/weather.js" defer></script>
 </body>
 </html>
