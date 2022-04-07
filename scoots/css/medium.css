@@ -46,17 +46,11 @@
         margin-bottom: 50px;
     }
 
-    .map-left {
-        grid-column: 1 / 2;
-        align-self: center;
-        justify-self: center;
+    .map {
+        display:block;
+        margin: 0 auto;
     }
-       
-    .map-right {
-        grid-column: 2 / 2;
-        align-self: center;
-        justify-self: center;
-    }
+
 /* rental page */
 
     .cards {
