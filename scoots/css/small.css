@@ -171,7 +171,7 @@ figcaption {
     width: 200px;
 }
 
-.maps {
+/* .maps {
     display: none;
     margin-bottom: 10px;
 }
@@ -182,7 +182,7 @@ figcaption {
 
 .map-right {
     margin: 10px auto;
-}
+} */
 
 a.socialmedia {
     display: none;
